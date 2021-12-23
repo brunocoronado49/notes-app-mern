@@ -8,3 +8,5 @@
 3. Se realizó la configuración en el archivo app.js
 
 4. Se guardaron variables de entorno en un archivo llamado .env para el caso de la URL
+
+5. Despues de toda la configuracion y lógica del proyecto crear en una carpeta el frontend con el comando npx ceate-react-app <nombre> desde la raíz del proyecto

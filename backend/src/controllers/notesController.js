@@ -15,7 +15,7 @@ notesController.addNote = async (req, res) => {
         author: author
     })
     await newNote.save()
-    console.log(newNote)
+    res.json('New note added!')
 }
 
 notesController.editNote = async (req, res) => {
@@ -31,10 +31,12 @@ notesController.updateNote = async (req, res) => {
         author: author,
         date: date
     })
+    res.json('New note updated!')
 }
 
 notesController.DeleteNote = async (req, res) => {
     await Note.findByIdAndDelete(req.params.id)
+    res.json('New note deleted!')
 }
 
 

@@ -1,5 +1,11 @@
-export default function Home(props) {
-    return (
-        <h1>HOME</h1>
-    )
+import React, { Component } from 'react'
+
+export default class Home extends Component {
+    render() {
+        return (
+            <div>
+                
+            </div>
+        )
+    }
 }

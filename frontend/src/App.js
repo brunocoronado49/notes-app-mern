@@ -19,6 +19,7 @@ export default function App() {
         <Routes>
           <Route path="/" exact element={ <Home/> }/>
           <Route path="/notes" element={ <NotesList/> }/>
+          <Route path="/notes/edit/:id" element={ <FormNote/> }/>
           <Route path="/notes/add" element={ <FormNote/> }/>
           <Route path="/user" element={ <AddUser/> }/>
           <Route path="/about" exact element={ <About/> }/>
